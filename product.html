@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>highland</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="styleprodu.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+  <header class="main-header">
+	<div class="container">
+		<h1 class="mh-logo">
+			<img src="images/logo highland.svg" width="90" height="95" >
+		</h1>
+		<nav class="main-nav">
+			<ul class="main-nav-list">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">About us</a>
+				</li>
+				<li>
+					<a href="#">Our clients</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Product Images -->
+      <div class="left-column">
+        <img data-image="black" src="images/productfoto3.svg" alt="" width="612" height="612" >
+        <img data-image="blue" src="images/productfoto2.svg" alt="" width="612" height="612">
+        <img data-image="red" class="active" src="images/productfoto1.svg" alt="" width="612" height="612">
+        
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Clothes</span>
+          <h1>Adidas x Pharrell Williams Basics Unisex Soft French Terry Sweatshirt</h1>
+          <p>This fall is going to be a lot different with this adidas x Pharrell Williams Basics Unisex Soft French Terry Sweatshirt. The alliance between the illustrious American artist and fashion icon and the German brand.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Photos</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+              
+            </div>
+
+          </div>
+
+          <!-- Size -->
+          <div class="size-config">
+            <span>Size</span>
+
+            <div class="size-choose">
+              <button>XS</button>
+              <button>S</button>
+              <button>M</button>
+              <button>L</button>
+              <button>XL</button>
+            </div>
+
+            <a href="#">Any questions? read here
+            </a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>148$</span>
+          <a href="payment.html" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+    <section class="wrap-photo">
+      
+      <div class="shop-content">
+
+        
+        <div class="product-box">
+          <h2 class="h1-shop">Recomended</h2>
+            <a href="product.html"><img src="images/re1.svg" alt="product-img"></a>
+            <h2 class="product-title">Adidas x Pharrell Williams Basics </h2>
+            <span class="price">$120</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+            <div class="product-box">
+              <img src="images/re2.svg" alt="product-img">
+              <h2 class="product-title">Oversize Hoodies Joggers Tracksuit.</h2>
+              <span class="price">$50</span>
+              <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <div class="product-box">
+            <img src="images/re3.svg" alt="product-img">
+            <h2 class="product-title">Coco Capitán Collaboration</h2>
+            <span class="price">$120</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="images/re4.svg" alt="product-img">
+          <h2 class="product-title">Charlie Cosy Jogger</h2>
+          <span class="price">$79</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="product.js" charset="utf-8"></script>
+  </body>
+</html>
